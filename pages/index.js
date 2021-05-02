@@ -35,7 +35,7 @@ export default function Home({ feedData }) {
 
       <main>
         <div className="container w-96 mx-auto p-4">
-          <div className="flex flex-col h-screen justify-center items-center transform -translate-y-5">
+          <div className="flex flex-col h-screen justify-center items-center transform -translate-y-8">
             <h1 className="text-7xl">Grimm</h1>
             <h2 className="text-lg mt-4">Touch a bowl to feed me!</h2>
             <Dog className={`h-52 w-full mb-4 mt-16 transition duration-500 ease-in-out ${morningFed && eveningFed ? '' : 'animate-bounce'}`} />
